@@ -1,0 +1,24 @@
+physics:
+    spatial_grid: 128
+    temprol_grid: 512
+    s_ds: 0
+    t_ds: 1
+    crop: 256
+    bin_len: 0.0096
+    c: 3.e+8
+    wall_size: 2.0
+    material: 'diffuse'
+    # material: 'specular'
+    method: 'lct'
+
+model:
+    scale: 7.5
+    Neural:
+        # operator: 'partial'
+        # operator: 'attention'
+        # operator: 'vanilla'
+        in_channels: 1
+        mid_channels: 8
+        out_channels: 1
+        actv: 'leaky_relu'
+        mode: 'linear'
