@@ -11,7 +11,7 @@ The code for Paper: Virtual Scanning: Unsupervised Non-line-of-sight Imaging fro
 <img src="./images/real_results.png" alt="real_results" width="600">
 
 # Inference 
-1. The pre-trained models are provided in './checkpoint'
+1. The pre-trained models for the 256×128×128 test size are provided in './checkpoint'
 2. Download pre-processed real-world datasets provided by [F-K](https://github.com/princeton-computational-imaging/NLOSFeatureEmbeddings/blob/main/README.md) and [NLOST](https://github.com/Depth2World/NLOST?tab=readme-ov-file) from [Google Drive](https://drive.google.com/file/d/12PpcjcT3yMYrZ740MniDX-e5hAsxqGTe/view?usp=sharing)
 3. Launch './test.sh'
    
