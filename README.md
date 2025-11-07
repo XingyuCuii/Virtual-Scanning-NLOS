@@ -18,7 +18,7 @@ The code for Paper: Virtual Scanning: Unsupervised Non-line-of-sight Imaging fro
 To test our method on more patterns and datasets, please change the `data_path` or `pattern_path` in the following command. For sparse patterns, we recommend setting a lower SNR for better results.
 
 ```bash
-python test.py --snr 5.e+4 --data_path 'test_data/real_data/nlost/mandeer2_re_160s' --pattern_path 'test_data/pattern/random.png'
+python test.py --snr 5.e+4 --data_path 'test_data/real_data/fk/statue' --pattern_path 'test_data/pattern/random.png'
 ```
 # Contact
 Questions can be addressed to [Xingyu Cui](xingyu_cui@tju.edu.cn).
